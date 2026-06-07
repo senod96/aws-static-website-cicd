@@ -1,4 +1,4 @@
 function showMessage() {
     document.getElementById("message").innerHTML =
-        " Website is working perfectly through CI/CD deployment!";
+        " CI/CD pipeline verified successfully. Website deployed through GitHub Actions to Amazon S3 and delivered via CloudFront.";
 }
