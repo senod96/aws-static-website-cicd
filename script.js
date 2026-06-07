@@ -1,4 +1,4 @@
 function showMessage() {
     document.getElementById("message").innerHTML =
-        "Website deployed successfully!";
+        " Website is working perfectly through CI/CD deployment!";
 }
