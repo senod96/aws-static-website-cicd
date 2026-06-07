@@ -1,24 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud Engineer Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Cloud Engineer Portfolio - CI/CD Working</h1>
+    <section class="hero">
+        <div class="card">
+            <div class="badge">AWS S3 + CloudFront</div>
 
-    <p>
-        Hosted on AWS S3 + CloudFront
-    </p>
+            <h1>Cloud Engineer Portfolio</h1>
 
-    <button onclick="showMessage()">
-        Test Website
-    </button>
+            <p class="subtitle">
+                CI/CD pipeline successfully deployed with a fast, secure, and scalable cloud architecture.
+            </p>
 
-    <p id="message"></p>
+            <div class="features">
+                <span> AWS Hosted</span>
+                <span> CloudFront CDN</span>
+                <span> CI/CD Ready</span>
+            </div>
+
+            <button onclick="showMessage()">
+                Test Website
+            </button>
+
+            <p id="message"></p>
+        </div>
+    </section>
 
     <script src="script.js"></script>
-
 </body>
 </html>
